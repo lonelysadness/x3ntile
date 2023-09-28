@@ -1,0 +1,29 @@
+* {
+    background:                  rgba(15, 18, 18, 100%);
+    normal-background:           rgba(15, 18, 18, 100%);
+    selected-normal-background:  rgba(96, 119, 103, 100%);
+    selected-urgent-background:  rgba(96, 119, 103, 100%);
+    selected-active-background:  rgba(96, 119, 103, 100%);
+    active-background:           rgba(15, 18, 18, 100%);
+    urgent-background:           rgba(15, 18, 18, 100%);
+    alternate-normal-background: rgba(15, 18, 18, 100%);
+    alternate-urgent-background: rgba(15, 18, 18, 100%);
+    alternate-active-background: rgba(15, 18, 18, 100%);
+    background-color:            rgba(0, 0, 0, 0%);
+
+    foreground:                  rgba(96, 119, 103, 100%);
+    normal-foreground:           @foreground;
+    selected-normal-foreground:  rgba(15, 18, 18, 100%);
+    selected-urgent-foreground:  rgba(96, 119, 103, 100%);
+    selected-active-foreground:  rgba(96, 119, 103, 100%);
+    active-foreground:           rgba(96, 119, 103, 100%);
+    urgent-foreground:           rgba(204, 102, 102, 100%);
+    alternate-normal-foreground: @foreground;
+    alternate-urgent-foreground: @urgent-foreground;
+    alternate-active-foreground: @active-foreground;
+
+    border-color:                rgba(15, 18, 18, 100%);
+    separatorcolor:              rgba(15, 18, 18, 100%);
+  
+    spacing:                     2;
+}
